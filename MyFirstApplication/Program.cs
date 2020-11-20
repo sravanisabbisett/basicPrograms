@@ -6,7 +6,7 @@ namespace MyFirstApplication
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello Sravani!");
             BasicProgram conversion = new BasicProgram();
             collections collections = new collections();
             int result = conversion.convertingToInt(5.6783);
@@ -22,6 +22,8 @@ namespace MyFirstApplication
             conversion.sumOfTheDigits();
             conversion.switchDemo();
             collections.ListDemo();
+            int minresult=conversion.findMin(7, 6);
+            Console.WriteLine(minresult);
             Console.ReadKey();
         }
     }

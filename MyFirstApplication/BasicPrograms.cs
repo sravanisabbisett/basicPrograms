@@ -78,5 +78,9 @@ namespace MyFirstApplication
                     break;
             }
         }
+        public int findMin(int a,int b)
+        {
+            return Math.Min(a, b);
+        }
     }
 }

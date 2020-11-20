@@ -6,5 +6,7 @@ namespace MyFirstApplication
 {
     class FindMin
     {
+        
+            
     }
 }
